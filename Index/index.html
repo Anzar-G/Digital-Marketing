@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pengantar Digital Marketing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="back-to-top" id="backToTop">↑</div>
+
+  <div class="container">
+    <header>
+      <h1>📘 Pengantar Digital Marketing</h1>
+      <p>Penjelasan Lengkap untuk Pemula</p>
+    </header>
+
+    <nav>
+      <button class="nav-toggle" onclick="toggleNav()">📋 Menu Topik</button>
+      <ul id="navMenu">
+        <li><a href="#definisi" onclick="closeNav()">Definisi</a></li>
+        <li><a href="#pentingnya" onclick="closeNav()">Pentingnya</a></li>
+        <li><a href="#alur" onclick="closeNav()">Alur Belajar</a></li>
+        <li><a href="#profesi" onclick="closeNav()">Profesi</a></li>
+        <li><a href="#mindset" onclick="closeNav()">Mindset</a></li>
+        <li><a href="praktik.html">🛠️ Praktik</a></li>
+      </ul>
+    </nav>
+
+    <section id="definisi">
+      <h2>1. Apa Itu Digital Marketing?</h2>
+      <p>Digital marketing adalah strategi pemasaran yang menggunakan media digital untuk menjangkau, memengaruhi, dan membangun hubungan dengan audiens. Ini mencakup berbagai saluran seperti media sosial, mesin pencari, email, website, dan platform iklan digital.</p>
+      <div class="stats-box">
+        <div class="stat-item">
+          <div class="stat-number">5.4M</div>
+          <div class="stat-label">Pengguna Internet di Indonesia</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">170M+</div>
+          <div class="stat-label">Pengguna Media Sosial</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">85%</div>
+          <div class="stat-label">Bisnis Beralih ke Online</div>
+        </div>
+      </div>
+      <p>Penjelasan dasar ini bisa kamu temukan di <a href="https://www.youtube.com/watch?v=9vpqElXcGSc" target="_blank">Apa sih pengertian digital marketing?</a>, yang menjelaskan bahwa digital marketing bukan hanya soal promosi di media sosial, tapi juga tentang bagaimana brand membangun kehadiran online yang kuat dan berkelanjutan.</p>
+    </section>
+
+    <section id="pentingnya">
+      <h2>2. Kenapa Digital Marketing Penting di Era Sekarang?</h2>
+      <p>Menurut <a href="https://www.youtube.com/watch?v=oMo09la7jx8" target="_blank">Belajar Digital Marketing dari 0 | Menjadi Digital Marketer</a>, digital marketing di Indonesia punya potensi besar. Banyak bisnis lokal mulai beralih ke online, dan kebutuhan akan tenaga ahli digital marketing terus meningkat. Bahkan, profesi digital marketer bisa menghasilkan gaji dua digit jika punya jam terbang dan skill yang mumpuni.</p>
+      <div class="card-container">
+        <div class="card">
+          <h3>💰 Biaya Efisien</h3>
+          <p>Mulai dengan budget kecil dan scale up sesuai hasil. ROI bisa diukur dengan akurat.</p>
+        </div>
+        <div class="card">
+          <h3>🎯 Target Presisi</h3>
+          <p>Jangkau audiens spesifik berdasarkan demografi, minat, dan perilaku mereka.</p>
+        </div>
+        <div class="card">
+          <h3>📊 Data Real-Time</h3>
+          <p>Monitor performa kampanye secara langsung dan lakukan optimasi cepat.</p>
+        </div>
+        <div class="card">
+          <h3>🌍 Jangkauan Global</h3>
+          <p>Bisnis kecil bisa bersaing di pasar global dengan strategi yang tepat.</p>
+        </div>
+      </div>
+      <p>Digital marketing juga memungkinkan bisnis kecil bersaing dengan brand besar karena biaya promosi bisa disesuaikan dan hasilnya bisa diukur secara real-time. Ini membuka peluang besar bagi siapa pun yang ingin memulai karier atau bisnis di dunia digital.</p>
+    </section>
+
+    <section id="alur">
+      <h2>3. Alur Belajar Digital Marketing untuk Pemula</h2>
+      <p>Video <a href="https://www.youtube.com/watch?v=hAen85MSGmU" target="_blank">BELAJAR Digital Marketing Mulai Dari Mana?</a> menyusun alur belajar yang sistematis dan sangat cocok untuk pemula:</p>
+      <div class="checklist">
+        <h3>📋 Checklist Perjalanan Belajarmu:</h3>
+        <div class="checklist-item" onclick="toggleCheck(this)">
+          <input type="checkbox" id="check1">
+          <label for="check1"><span class="emoji">🧠</span><strong>Copywriting:</strong> Skill menulis yang bisa memengaruhi orang untuk bertindak. Ini fondasi semua konten digital.</label>
+        </div>
+        <div class="checklist-item" onclick="toggleCheck(this)">
+          <input type="checkbox" id="check2">
+          <label for="check2"><span class="emoji">📱</span><strong>Social Media Marketing:</strong> Gunakan Instagram, TikTok, dan YouTube untuk membangun audiens dan menyebarkan konten yang bermanfaat.</label>
+        </div>
+        <div class="checklist-item" onclick="toggleCheck(this)">
+          <input type="checkbox" id="check3">
+          <label for="check3"><span class="emoji">👥</span><strong>Influencer Marketing:</strong> Kolaborasi dengan orang yang punya pengaruh untuk memperluas jangkauan brand.</label>
+        </div>
+        <div class="checklist-item" onclick="toggleCheck(this)">
+          <input type="checkbox" id="check4">
+          <label for="check4"><span class="emoji">💻</span><strong>Landing Page:</strong> Halaman khusus untuk mengarahkan audiens ke satu tujuan, seperti membeli produk atau mendaftar.</label>
+        </div>
+        <div class="checklist-item" onclick="toggleCheck(this)">
+          <input type="checkbox" id="check5">
+          <label for="check5"><span class="emoji">💰</span><strong>Paid Ads:</strong> Pelajari Meta Ads, TikTok Ads, dan Google Ads untuk menjangkau target market secara cepat dan efisien.</label>
+        </div>
+        <div class="checklist-item" onclick="toggleCheck(this)">
+          <input type="checkbox" id="check6">
+          <label for="check6"><span class="emoji">📧</span><strong>Email Marketing & CRM:</strong> Bangun sistem follow-up otomatis untuk menjaga hubungan dengan pelanggan.</label>
+        </div>
+        <div class="checklist-item" onclick="toggleCheck(this)">
+          <input type="checkbox" id="check7">
+          <label for="check7"><span class="emoji">🔍</span><strong>SEO:</strong> Optimalkan konten agar muncul di hasil pencarian Google. Ini strategi jangka panjang yang sangat efektif.</label>
+        </div>
+        <div class="checklist-item" onclick="toggleCheck(this)">
+          <input type="checkbox" id="check8">
+          <label for="check8"><span class="emoji">🤖</span><strong>Automation & Chatbot:</strong> Gunakan teknologi untuk membalas pesan, mengirim email, dan mengelola interaksi pelanggan secara otomatis.</label>
+        </div>
+      </div>
+      <p>Penjelasan mendalam tentang Meta Ads bisa kamu temukan di <a href="https://www.youtube.com/watch?v=0NP3IRpwYQk" target="_blank">PaDi Talks</a>.</p>
+    </section>
+
+    <section id="profesi">
+      <h2>4. Skill & Profesi di Dunia Digital Marketing</h2>
+      <p>Video <a href="https://www.youtube.com/watch?v=1ocLzJCvxAM" target="_blank">Pengenalan Ilmu dan Pekerjaan Digital Marketing</a> menjelaskan berbagai jenis pekerjaan di bidang ini:</p>
+      <div class="card-container">
+        <div class="card">
+          <h3>🎨 Content Creator</h3>
+          <p>Membuat konten visual dan tulisan yang engaging untuk berbagai platform.</p>
+        </div>
+        <div class="card">
+          <h3>📱 Social Media Specialist</h3>
+          <p>Mengelola akun media sosial dan membangun komunitas online.</p>
+        </div>
+        <div class="card">
+          <h3>📊 Performance Ads Analyst</h3>
+          <p>Menganalisis dan mengoptimalkan kampanye iklan berbayar.</p>
+        </div>
+        <div class="card">
+          <h3>🔍 SEO Specialist</h3>
+          <p>Meningkatkan visibilitas website di mesin pencari organik.</p>
+        </div>
+        <div class="card">
+          <h3>📧 Email Marketing Manager</h3>
+          <p>Merancang kampanye email yang efektif dan personalized.</p>
+        </div>
+        <div class="card">
+          <h3>🎯 Digital Strategist</h3>
+          <p>Merencanakan strategi digital marketing menyeluruh untuk brand.</p>
+        </div>
+      </div>
+      <p>Setiap peran punya skill khusus, tapi semuanya saling terhubung dalam satu ekosistem digital marketing. Kamu bisa memilih jalur sesuai minat dan kekuatanmu, lalu mulai membangun portofolio dari proyek kecil atau freelance.</p>
+    </section>
+
+    <section id="mindset">
+      <h2>5. Mindset yang Benar: Bukan Sekadar Jualan</h2>
+      <p>Dalam <a href="https://www.youtube.com/watch?v=aQbZdee5PXI" target="_blank">Belajar Digital Marketing dari 0 | Bukan Soal Jualan</a>, dijelaskan bahwa digital marketing bukan hanya soal jualan cepat. Yang lebih penting adalah membangun value, membangun kepercayaan, dan menciptakan sistem yang bisa berjalan otomatis.</p>
+      <blockquote>"Kalau kamu cuma fokus jualan, kamu akan capek. Tapi kalau kamu bangun sistem, kamu bisa punya bisnis yang jalan sendiri."</blockquote>
+      <div class="tips">
+        <h3>💡 Tips Membangun Mindset yang Tepat:</h3>
+        <ul>
+          <li>Fokus pada memberikan value dulu, penjualan akan mengikuti</li>
+          <li>Bangun kepercayaan jangka panjang dengan audiens</li>
+          <li>Belajar dari data dan feedback, bukan asumsi</li>
+          <li>Konsisten lebih penting daripada viral sesaat</li>
+          <li>Investasi dalam skill dan tools yang tepat</li>
+        </ul>
+      </div>
+      <p>Mindset ini penting agar kamu tidak mudah menyerah dan bisa membangun bisnis yang berkelanjutan.</p>
+    </section>
+
+    <section id="jenis">
+      <h2>6. Jenis-Jenis Digital Marketing</h2>
+      <p>Selain alur belajar dasar, pahami berbagai jenis digital marketing yang bisa kamu pelajari lebih dalam. Setiap jenis punya peran unik dalam strategi keseluruhan:</p>
+      <ul>
+        <li><span class="emoji">🔍</span><strong>Search Engine Optimization (SEO):</strong> Teknik untuk membuat website atau konten muncul di halaman pertama Google secara organik.</li>
+        <li><span class="emoji">💸</span><strong>Search Engine Marketing (SEM):</strong> Iklan berbayar di mesin pencari seperti Google Ads untuk hasil instan.</li>
+        <li><span class="emoji">📝</span><strong>Content Marketing:</strong> Membuat konten berkualitas tinggi (blog, video, infografis) untuk menarik dan mempertahankan audiens.</li>
+        <li><span class="emoji">📧</span><strong>Affiliate Marketing:</strong> Kerja sama dengan mitra untuk mempromosikan produk dan dapat komisi dari penjualan.</li>
+        <li><span class="emoji">🎥</span><strong>Video Marketing:</strong> Menggunakan platform seperti YouTube atau TikTok untuk cerita visual yang engaging.</li>
+        <li><span class="emoji">📊</span><strong>Analytics & Data-Driven Marketing:</strong> Menganalisis data dari tools seperti Google Analytics untuk mengukur dan mengoptimalkan kampanye.</li>
+      </ul>
+      <p>Untuk pemula, mulai dengan satu atau dua jenis yang paling menarik, seperti SEO dan content marketing, karena ini gratis dan bisa dipraktikkan sendiri.</p>
+    </section>
+
+    <section id="tools">
+      <h2>7. Tools Esensial untuk Digital Marketer Pemula</h2>
+      <p>Agar lebih efisien, gunakan tools gratis atau murah yang mendukung pekerjaanmu. Berikut rekomendasi:</p>
+      <div class="card-container">
+        <div class="card">
+          <h3>📊 Analytics Tools</h3>
+          <p><strong>Google Analytics & Search Console</strong> - Melacak traffic website dan performa SEO</p>
+        </div>
+        <div class="card">
+          <h3>✏️ Design Tools</h3>
+          <p><strong>Canva atau Figma</strong> - Desain grafis sederhana untuk konten sosial media</p>
+        </div>
+        <div class="card">
+          <h3>📧 Email Marketing</h3>
+          <p><strong>Mailchimp atau Sendinblue</strong> - Platform email marketing gratis untuk pemula</p>
+        </div>
+        <div class="card">
+          <h3>🔗 Social Media</h3>
+          <p><strong>Buffer atau Hootsuite</strong> - Jadwalkan postingan di media sosial</p>
+        </div>
+        <div class="card">
+          <h3>🔍 SEO Tools</h3>
+          <p><strong>Ahrefs atau SEMrush</strong> - Analisis kompetitor dan keyword research</p>
+        </div>
+        <div class="card">
+          <h3>🤖 AI & Automation</h3>
+          <p><strong>ChatGPT atau ManyChat</strong> - Bantu buat konten atau bangun chatbot</p>
+        </div>
+      </div>
+      <p>Video tutorial tentang tools ini banyak tersedia di YouTube, seperti <a href="https://www.youtube.com/results?search_query=tools+digital+marketing+pemula" target="_blank">cari "Tools Digital Marketing Pemula"</a> untuk panduan langkah demi langkah.</p>
+    </section>
+
+    <section id="tantangan">
+      <h2>8. Tantangan Umum dan Cara Mengatasinya</h2>
+      <p>Belajar digital marketing tidak selalu mulus. Berikut tantangan yang sering dihadapi pemula dan solusinya:</p>
+      <div class="tips">
+        <h3>🎯 Tantangan 1: Overwhelmed dengan Banyaknya Platform</h3>
+        <p><strong>Solusi:</strong> Fokus pada 2-3 platform utama (misalnya Instagram dan Google) sebelum ekspansi. Ikuti komunitas seperti grup Facebook Digital Marketing Indonesia untuk bertanya.</p>
+      </div>
+      <div class="tips">
+        <h3>🎯 Tantangan 2: Budget Terbatas untuk Iklan</h3>
+        <p><strong>Solusi:</strong> Mulai dengan organic marketing (konten gratis) dan gunakan fitur iklan murah seperti boosted posts di Facebook. Pelajari targeting yang tepat untuk efisiensi.</p>
+      </div>
+      <div class="tips">
+        <h3>🎯 Tantangan 3: Mengukur Hasil yang Sulit</h3>
+        <p><strong>Solusi:</strong> Gunakan metrics sederhana seperti engagement rate, click-through rate (CTR), dan conversion. Tools seperti Google Analytics akan membantu.</p>
+      </div>
+      <div class="tips">
+        <h3>🎯 Tantangan 4: Konsistensi Konten</h3>
+        <p><strong>Solusi:</strong> Buat content calendar bulanan dan batch-create konten. Gunakan tools scheduling untuk posting otomatis.</p>
+      </div>
+      <p>Dengan mengatasi ini, kamu akan lebih percaya diri. Ingat, konsistensi adalah kunci!</p>
+    </section>
+
+    <section id="quiz">
+      <h2>9. Quiz: Uji Pemahamanmu!</h2>
+      <p>Seberapa paham kamu tentang digital marketing? Jawab pertanyaan berikut:</p>
+      <div class="quiz-container">
+        <div id="quizScore" style="text-align: center; margin-bottom: 20px;">
+          <h3>Skor: <span id="score">0</span>/5</h3>
+        </div>
+        <div class="quiz-question active" id="q1">
+          <h3>Pertanyaan 1: Mengapa digital marketing memungkinkan bisnis kecil bersaing dengan brand besar?</h3>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q1', 'q2')">A. Karena semua bisnis mendapat subsidi iklan dari pemerintah</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q1', 'q2')">B. Karena digital marketing hanya digunakan oleh bisnis kecil</div>
+          <div class="quiz-option" onclick="checkAnswer(this, true, 'q1', 'q2')">C. Karena biaya promosi bisa disesuaikan dan hasilnya bisa diukur secara real-time</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q1', 'q2')">D. Karena brand besar tidak menggunakan media sosial</div>
+        </div>
+        <div class="quiz-question" id="q2">
+          <h3>Pertanyaan 2: Apa mindset yang disarankan dalam digital marketing menurut materi?</h3>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q2', 'q3')">A. Fokus pada penjualan cepat dan viral</div>
+          <div class="quiz-option" onclick="checkAnswer(this, true, 'q2', 'q3')">B. Bangun sistem dan value agar bisnis bisa berjalan otomatis</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q2', 'q3')">C. Posting sebanyak mungkin tanpa strategi</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q2', 'q3')">D. Meniru strategi kompetitor secara mentah-mentah</div>
+        </div>
+        <div class="quiz-question" id="q3">
+          <h3>Pertanyaan 3: Jenis digital marketing apa yang menggunakan konten berkualitas untuk menarik audiens?</h3>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q3', 'q4')">A. Search Engine Marketing (SEM)</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q3', 'q4')">B. Affiliate Marketing</div>
+          <div class="quiz-option" onclick="checkAnswer(this, true, 'q3', 'q4')">C. Content Marketing</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q3', 'q4')">D. Video Marketing</div>
+        </div>
+        <div class="quiz-question" id="q4">
+          <h3>Pertanyaan 4: Apa solusi untuk pemula yang merasa kewalahan dengan banyaknya platform digital?</h3>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q4', 'q5')">A. Gunakan semua platform sekaligus</div>
+          <div class="quiz-option" onclick="checkAnswer(this, true, 'q4', 'q5')">B. Fokus pada 2–3 platform utama terlebih dahulu</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q4', 'q5')">C. Hindari media sosial sepenuhnya</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q4', 'q5')">D. Posting tanpa jadwal</div>
+        </div>
+        <div class="quiz-question" id="q5">
+          <h3>Pertanyaan 5: Apa kelebihan utama dari digital marketing dibandingkan pemasaran konvensional?</h3>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q5', 'result')">A. Tidak membutuhkan strategi atau perencanaan</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q5', 'result')">B. Hasilnya tidak bisa diukur</div>
+          <div class="quiz-option" onclick="checkAnswer(this, true, 'q5', 'result')">C. Bisa menjangkau audiens yang lebih luas dengan biaya yang lebih efisien</div>
+          <div class="quiz-option" onclick="checkAnswer(this, false, 'q5', 'result')">D. Hanya bisa digunakan oleh perusahaan besar</div>
+        </div>
+        <div class="quiz-question" id="result" style="text-align: center;">
+          <h3>🎉 Quiz Selesai!</h3>
+          <p id="resultText" style="font-size: 1.2em; margin: 20px 0;"></p>
+          <button onclick="resetQuiz()">Ulangi Quiz</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="referensi">
+      <h2>10. Referensi Buku & Sumber Belajar Tambahan</h2>
+      <p>Kalau kamu suka belajar lewat buku, <a href="https://www.tiktok.com/@dbliya/video/7530237704068484358?lang=en" target="_blank">Optimalkan Bisnis Online dengan Buku Jago Digital Marketing</a> merekomendasikan buku karya Septi Wulandari yang membahas strategi media sosial, SEO, dan cara membangun bisnis online secara praktis.</p>
+      <h3>📚 Rekomendasi Buku Lainnya:</h3>
+      <ul>
+        <li><strong>"Jab, Jab, Jab, Right Hook"</strong> - Gary Vaynerchuk (Social Media Strategy)</li>
+        <li><strong>"Influence"</strong> - Robert Cialdini (Psikologi Persuasi)</li>
+        <li><strong>"Building a StoryBrand"</strong> - Donald Miller (Brand Messaging)</li>
+        <li><strong>"Digital Marketing for Dummies"</strong> - Ryan Deiss (Panduan Lengkap)</li>
+      </ul>
+      <h3>🎓 Platform Belajar Online:</h3>
+      <div class="card-container">
+        <div class="card">
+          <h3>🌐 Coursera</h3>
+          <p>"Digital Marketing Specialization" oleh University of Illinois - Sertifikat gratis tersedia</p>
+        </div>
+        <div class="card">
+          <h3>📺 YouTube</h3>
+          <p>Channel lokal seperti <strong>Dewa Eka Prayoga, Denny Santoso,</strong> dan <strong>Komunitas Digital Marketing</strong></p>
+        </div>
+        <div class="card">
+          <h3>💬 Komunitas</h3>
+          <p>Grup Facebook: Digital Marketing Indonesia, Telegram: Komunitas DM Pemula</p>
+        </div>
+        <div class="card">
+          <h3>🎙️ Podcast</h3>
+          <p>"Marketing Over Coffee", "The GaryVee Audio Experience", "Digital Marketing Podcast"</p>
+        </div>
+      </div>
+      <p>Kamu juga bisa gabungkan pembelajaran dari YouTube, podcast, dan komunitas digital marketing lokal seperti kelas online, grup Telegram, atau forum diskusi.</p>
+    </section>
+
+    <section id="roadmap">
+      <h2>11. Roadmap 90 Hari Pertamamu</h2>
+      <p>Berikut panduan konkret untuk 3 bulan pertama belajar digital marketing:</p>
+      <div class="tips">
+        <h3>📅 Bulan 1: Foundation (Hari 1-30)</h3>
+        <ul>
+          <li><strong>Minggu 1-2:</strong> Belajar copywriting dasar, buat 10 caption untuk berbagai produk</li>
+          <li><strong>Minggu 3:</strong> Setup akun bisnis di Instagram & TikTok, posting 3x seminggu</li>
+          <li><strong>Minggu 4:</strong> Pelajari dasar-dasar desain di Canva, buat 20 template konten</li>
+        </ul>
+      </div>
+      <div class="tips">
+        <h3>📅 Bulan 2: Implementation (Hari 31-60)</h3>
+        <ul>
+          <li><strong>Minggu 5-6:</strong> Belajar Meta Ads dasar, jalankan 1 kampanye dengan budget Rp 100k</li>
+          <li><strong>Minggu 7:</strong> Buat landing page sederhana menggunakan tool gratis (Linktree/Carrd)</li>
+          <li><strong>Minggu 8:</strong> Setup Google Analytics, mulai tracking performa konten</li>
+        </ul>
+      </div>
+      <div class="tips">
+        <h3>📅 Bulan 3: Optimization (Hari 61-90)</h3>
+        <ul>
+          <li><strong>Minggu 9-10:</strong> Pelajari SEO dasar, optimalkan 5 artikel blog/website</li>
+          <li><strong>Minggu 11:</strong> Setup email marketing, kumpulkan 50 subscribers pertama</li>
+          <li><strong>Minggu 12:</strong> Review semua pembelajaran, buat portofolio case study</li>
+        </ul>
+      </div>
+      <blockquote>💡 Tips: Dokumentasikan setiap progress di LinkedIn atau blog pribadi. Ini akan menjadi portofolio yang valuable!</blockquote>
+    </section>
+
+    <section id="kesalahan">
+      <h2>12. Kesalahan Umum yang Harus Dihindari</h2>
+      <p>Belajar dari kesalahan orang lain agar perjalananmu lebih lancar:</p>
+      <div class="card-container">
+        <div class="card">
+          <h3>❌ Kesalahan 1</h3>
+          <p><strong>Terlalu banyak platform sekaligus</strong><br>Fokus menguasai 1-2 platform dulu sebelum ekspansi.</p>
+        </div>
+        <div class="card">
+          <h3>❌ Kesalahan 2</h3>
+          <p><strong>Tidak konsisten posting</strong><br>Lebih baik 3x seminggu konsisten daripada viral sesekali.</p>
+        </div>
+        <div class="card">
+          <h3>❌ Kesalahan 3</h3>
+          <p><strong>Mengabaikan analytics</strong><br>Data adalah guru terbaikmu. Selalu track dan analisis performa.</p>
+        </div>
+        <div class="card">
+          <h3>❌ Kesalahan 4</h3>
+          <p><strong>Copy-paste strategi orang</strong><br>Setiap bisnis unik. Adaptasi, jangan meniru mentah-mentah.</p>
+        </div>
+        <div class="card">
+          <h3>❌ Kesalahan 5</h3>
+          <p><strong>Tidak membangun email list</strong><br>Social media bisa hilang, tapi email list adalah asetmu sendiri.</p>
+        </div>
+        <div class="card">
+          <h3>❌ Kesalahan 6</h3>
+          <p><strong>Fokus vanity metrics</strong><br>Followers tinggi tapi tidak convert adalah sia-sia. Fokus pada engagement dan conversion.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kesimpulan">
+      <h2>🎯 Kesimpulan</h2>
+      <p>Digital marketing adalah kombinasi antara strategi, teknologi, dan komunikasi. Untuk mulai belajar, kamu bisa ikuti alur berikut:</p>
+      <ul>
+        <li>Pahami konsep dasar dan mindset yang benar</li>
+        <li>Pelajari copywriting dan social media marketing</li>
+        <li>Bangun audiens dan kolaborasi dengan influencer</li>
+        <li>Optimalkan dengan iklan berbayar dan landing page</li>
+        <li>Bangun sistem automation dan email marketing</li>
+        <li>Tambahkan SEO untuk jangka panjang</li>
+        <li>Gunakan chatbot dan CRM untuk efisiensi</li>
+        <li>Eksplorasi tools dan atasi tantangan dengan praktik rutin</li>
+      </ul>
+      <div class="tips" style="background: linear-gradient(135deg, #fff5e6 0%, #ffe6cc 100%); border-left-color: #f77f00;">
+        <h3>🚀 Siap Praktik Langsung?</h3>
+        <p>Setelah memahami teori dasar, saatnya kamu terapkan langsung! Kunjungi halaman praktik untuk panduan step-by-step yang bisa kamu lakukan hari ini.</p>
+        <p style="text-align: center; margin-top: 20px;">
+          <a href="praktik.html" style="background: linear-gradient(135deg, #e63946, #f77f00); color: white; padding: 14px 30px; border-radius: 25px; text-decoration: none; display: inline-block; font-weight: 600; box-shadow: 0 4px 10px rgba(230, 57, 70, 0.3);">🛠️ Mulai Praktik Sekarang</a>
+        </p>
+      </div>
+      <blockquote style="background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%); text-align: center; font-size: 1.2em;">
+        "Perjalanan seribu mil dimulai dengan satu langkah. Mulai hari ini, konsisten setiap hari, dan dalam 90 hari kamu akan melihat transformasi yang luar biasa!"
+      </blockquote>
+      <p style="text-align: center; font-size: 1.1em; margin-top: 30px;">
+        <strong>Selamat belajar dan sukses di dunia digital marketing! 🎉</strong>
+      </p>
+    </section>
+
+    <footer>
+      <h3 style="margin-bottom: 15px;">📬 Tetap Terhubung</h3>
+      <p>Bookmark halaman ini sebagai referensi belajarmu. Share ke teman-teman yang juga ingin belajar digital marketing!</p>
+      <p style="margin-top: 20px; opacity: 0.8;">&copy; 2025 Pengantar Digital Marketing. Dibuat oleh Anzhaer.</p>
+      <p style="margin-top: 10px; font-size: 0.9em;">Sumber: Berbagai video YouTube, buku, dan referensi online.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- Visitor Counter -->
+  <div id="visitor-counter" style="
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    z-index: 9999;
+    backdrop-filter: blur(4px);
+  ">
+    Pengunjung: <span id="count">0</span>
+  </div>
+
+  <script>
+    fetch('https://api.countapi.xyz/hit/anzar-g/digital-marketing')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('count').innerText = data.value.toLocaleString();
+      })
+      .catch(() => {
+        document.getElementById('count').innerText = '?';
+      });
+  </script>
+</body>
+</html>
